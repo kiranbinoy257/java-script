@@ -4,15 +4,30 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>calculation</title>
+    <link rel="stylesheet" href="/css/small calculation.css">
 </head>
 <body>
-    <input type="text" placeholder="Number1" id="Number1">
-    <input type="text" placeholder="Number2" id="Number2">
-    <button onclick="Addiction()">+</button>
-    <button onclick="substraction()">-</button>
-    <button onclick="multiplication()">*</button>
-    <button onclick="division()">/</button>
-    <button onclick="modulos()">%</button>
+    <div class="main">
+        <div class="sub1">
+            <input type="text "  placeholder="Number1" id="Number1">
+        <input type="text" placeholder="Number2" id="Number2">
+        </div>
+       <div class="sub2">
+        <button onclick="Addiction()" id="style1">+</button >
+        <button onclick="substraction()" id="style1">-</button>
+        <button onclick="multiplication()" id="style1">*</button>
+        <button onclick="division()" id="style1">/</button>
+        <button onclick="modulos()" id="style1">%</button>
+       </div>
+       <div class="output">
+        <H3 id="plus"></H3>
+        <H3 id="minus"></H3>
+        <H3 id="into"></H3>
+        <H3 id="divi"></H3>
+        <H3 id="mode"></H3>
+    </div>
+    </div>
+   
 
     <script src="smal lcalculation.js"></script>
 </body>

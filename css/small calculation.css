@@ -1,0 +1,57 @@
+*{
+ margin: 0;
+ padding: 0%;   
+}
+.main{
+    height: 500px;
+    width: 400px;
+    background-color: rgb(8, 168, 152);
+    position: relative;
+   top: 20%;
+   left: 20%;
+   border-radius: 10px;
+}
+#Number1{
+    height: 50px;
+    width: 150px;
+    background-color: rgb(62, 83, 5);
+    color: white;
+    border-radius: 10px;
+    position: absolute;
+    text-align: center;
+    left: 5%;
+}
+#Number2{
+    height: 50px;
+    width: 150px;
+    background-color: rgb(62, 83, 5);
+    color: white;
+    border-radius: 10px;
+    position: absolute;
+    left: 58%;
+    text-align: center;
+}
+.sub2{
+    height: 300px;
+    width: 150%;
+    position: absolute;
+    top: 30%;
+    margin:10px;
+
+}
+#style1{
+    height: 30px;
+    width: 30px;
+    background-color: rgb(4, 39, 27);
+}
+.output{
+    height: 50px;
+    width: 200px;
+    background-color: rgb(21, 3, 37);
+    position: absolute;
+    color: antiquewhite;
+    border-radius: 10px;
+    top: 15%;
+    left: 25%;
+    text-align: center;
+}
