@@ -1,7 +1,17 @@
-n1=prompt("enter a number")
-n2=prompt("enter another number")
-function sum( n1,n2){
-    return n1+n2;
+// i=243
+// rev=0;
+// while(i>1)
+// {
+//     rem=i%10;
+//     rev=rev*10+rem
+//     i=i/10
+// }
+// console.log(rev);
+i=12
+rev=0;
+while(i>1){
+    rem=i%10;
+    rev=rev*10+rem;
+    i=i/10
 }
-var result = sum(n1,n2);
-document.write(result);
+console.log(rev);
