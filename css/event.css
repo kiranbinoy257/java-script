@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.main{
+    height: 300px;
+    width: 400px;
+    background-color: rgb(3, 51, 35);
+    border-radius: 10px;
+    position: relative;
+    font-size: 200%;
+    font-family: 'Times New Roman', Times, serif;
+    border: 2px solid black;
+    color: aliceblue;
+}
+.sub1{
+    
+    height: 60px;
+    width: 200px;
+    display: flex;
+    justify-content: baseline;
+    align-items: center;
+
+
+}
+
+#hour{
+    position: absolute;
+    top: 35%;
+    padding-left: 4%;
+}
+#minute{
+    position: absolute;
+    top: 35%;
+    left: 10%;
+    padding-left: 4%;
+}
+#seconds{
+    position: absolute;
+    top: 35%;
+    left: 30%;
+    padding-left: 4%;
+}
