@@ -41,3 +41,9 @@
     left: 30%;
     padding-left: 4%;
 }
+#month{
+    position: absolute;
+    top: 35%;
+    left: 48%;
+    padding-left: 4%;
+}

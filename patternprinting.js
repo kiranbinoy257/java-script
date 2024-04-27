@@ -16,7 +16,6 @@
 let n=5
 for(i=1;i<=n;i++){
     for(j=1;j<=i-1;j++){
-
     }
     rfor(k=1;k<=n-i+1;k++){
         document.write("*")
